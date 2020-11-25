@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 89ce92c0838683545ad8f0c450f82ffa
+  - enabled: 1
+    path: Assets/Scenes/TestShip.unity
+    guid: 7532a960c3978f44c8539e6c7240c676
   m_configObjects: {}

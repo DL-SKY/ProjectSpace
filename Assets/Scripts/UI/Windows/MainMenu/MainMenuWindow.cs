@@ -18,10 +18,10 @@ namespace ProjectSpace.UI.Windows.MainMenu
 
         public void OnClickTest()
         {
-            //var windowsManager = ComponentLocator.Resolve<WindowsManager.WindowsManager>();
-            //windowsManager.CreateWindow<GameLoadingWindow>(GameLoadingWindow.prefabPath, Enums.EnumWindowsLayer.Loading, ConstantScenes.TEST_SCENE);
+            var windowsManager = ComponentLocator.Resolve<WindowsManager.WindowsManager>();
+            windowsManager.CreateWindow<GameLoadingWindow>(GameLoadingWindow.prefabPath, Enums.EnumWindowsLayer.Loading, ConstantScenes.TEST_SHIP);
 
-            //Close();
+            Close();
         }        
     }
 }

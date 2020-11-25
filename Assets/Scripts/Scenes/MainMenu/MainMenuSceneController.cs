@@ -1,10 +1,6 @@
-﻿using ProjectSpace.Constants;
-using ProjectSpace.Services;
-using ProjectSpace.UI.WindowsManager;
-using ProjectSpace.UI.Windows.Loading;
+﻿using ProjectSpace.Services;
 using ProjectSpace.UI.Windows.MainMenu;
-using System.Collections;
-using System.Collections.Generic;
+using ProjectSpace.UI.WindowsManager;
 using UnityEngine;
 
 namespace ProjectSpace.Scenes.MainMenu

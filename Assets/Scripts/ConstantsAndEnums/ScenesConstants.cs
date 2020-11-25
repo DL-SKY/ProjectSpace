@@ -9,5 +9,7 @@ namespace ProjectSpace.Constants
         public const string MAIN_SCENE = "MainScene";
 
         public const string MAIN_MENU = "MainMenu";
+
+        public const string TEST_SHIP = "TestShip";
     }
 }
