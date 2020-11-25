@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: SpaceshipConfig00
   m_EditorClassIdentifier: 
   modelID: Template
-  syzetype: 2
+  sizetype: 2
+  maxOfficers: 6

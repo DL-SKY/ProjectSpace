@@ -11,4 +11,14 @@ namespace ProjectSpace.Enums
         M,
         L,
     }
+
+    public enum EnumSubsystems
+    { 
+        Hull,
+        Shields,
+        Navigation,
+        Weapon,
+        Energy,
+        LifeSupport,
+    }
 }

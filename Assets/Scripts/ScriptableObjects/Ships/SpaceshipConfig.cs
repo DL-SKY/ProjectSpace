@@ -8,7 +8,11 @@ namespace ProjectSpace.ScriptableObjects.Ships
     [CreateAssetMenu(fileName = "SpaceshipConfig", menuName = "Scriptable/Ships/Config")]
     public class SpaceshipConfig : ScriptableObject
     {
+        [Space()]
         public string modelID;
-        public EnumSizetype syzetype;
+        public EnumSizetype sizetype;
+
+        [Space()]
+        [Range(0, 6)] public int maxOfficers;
     }
 }
